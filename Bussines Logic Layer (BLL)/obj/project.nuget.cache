@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gVHntldWFu3s2IshzWAQpHR3hmIbJm6Al7SL55j67sm2h4XRT6FA38vs0fl8RAMnUjDEFW6T18ATWd/Y0KcUSg==",
+  "success": true,
+  "projectFilePath": "D:\\Individueel Fontys S2\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\goert\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\goert\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

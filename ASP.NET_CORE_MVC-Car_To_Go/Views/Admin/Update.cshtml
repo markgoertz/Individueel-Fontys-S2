@@ -1,0 +1,87 @@
+﻿@model Car_To_Go.Models.CarViewModel
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="font-weight-bold text-center pb-4">Update</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8 text-center bg-dark text-white p-5 font-weight-bolder">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Brandname" class="control-label"></label>
+                <input asp-for="Brandname" class="form-control" value="@Model.Brandname" />
+                <span asp-validation-for="Brandname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelname" class="control-label"></label>
+                <input asp-for="Modelname" class="form-control" />
+                <span asp-validation-for="Modelname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Transmission" class="control-label"></label>
+                <input asp-for="Transmission" class="form-control" />
+                <span asp-validation-for="Transmission" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Enginepower" class="control-label"></label>
+                <input asp-for="Enginepower" class="form-control" />
+                <span asp-validation-for="Enginepower" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weight" class="control-label"></label>
+                <input asp-for="Weight" class="form-control" />
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Acceleration" class="control-label"></label>
+                <input asp-for="Acceleration" class="form-control" />
+                <span asp-validation-for="Acceleration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cargospace" class="control-label"></label>
+                <input asp-for="Cargospace" class="form-control" />
+                <span asp-validation-for="Cargospace" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Seat" class="control-label"></label>
+                <input asp-for="Seat" class="form-control" />
+                <span asp-validation-for="Seat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RentalPrice" class="control-label"></label>
+                <input asp-for="RentalPrice" class="form-control" />
+                <span asp-validation-for="RentalPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fueltype" class="control-label"></label>
+                <input asp-for="Fueltype" class="form-control" />
+                <span asp-validation-for="Fueltype" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageLink" class="control-label"></label>
+                <input asp-for="ImageLink" class="form-control" />
+                <span asp-validation-for="ImageLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

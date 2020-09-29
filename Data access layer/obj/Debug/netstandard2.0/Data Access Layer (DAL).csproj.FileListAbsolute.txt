@@ -1,0 +1,36 @@
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).deps.json
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).pdb
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\bin\Debug\netstandard2.0\Interfaces.dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csprojAssemblyReference.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).AssemblyInfoInputs.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).AssemblyInfo.cs
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csproj.CoreCompileInputs.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csproj.CopyComplete
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).pdb
+D:\Proftaak\Carshop\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).deps.json
+D:\Proftaak\Carshop\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).dll
+D:\Proftaak\Carshop\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).pdb
+D:\Proftaak\Carshop\Data access layer\bin\Debug\netstandard2.0\Interfaces.dll
+D:\Proftaak\Carshop\Data access layer\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\Proftaak\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csprojAssemblyReference.cache
+D:\Proftaak\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).AssemblyInfoInputs.cache
+D:\Proftaak\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).AssemblyInfo.cs
+D:\Proftaak\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csproj.CoreCompileInputs.cache
+D:\Proftaak\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csproj.CopyComplete
+D:\Proftaak\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).dll
+D:\Proftaak\Carshop\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).pdb
+D:\Individueel Fontys S2\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).deps.json
+D:\Individueel Fontys S2\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).dll
+D:\Individueel Fontys S2\Data access layer\bin\Debug\netstandard2.0\Data Access Layer (DAL).pdb
+D:\Individueel Fontys S2\Data access layer\bin\Debug\netstandard2.0\Interfaces.dll
+D:\Individueel Fontys S2\Data access layer\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\Individueel Fontys S2\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csprojAssemblyReference.cache
+D:\Individueel Fontys S2\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).AssemblyInfoInputs.cache
+D:\Individueel Fontys S2\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).AssemblyInfo.cs
+D:\Individueel Fontys S2\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csproj.CoreCompileInputs.cache
+D:\Individueel Fontys S2\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).csproj.CopyComplete
+D:\Individueel Fontys S2\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).dll
+D:\Individueel Fontys S2\Data access layer\obj\Debug\netstandard2.0\Data Access Layer (DAL).pdb

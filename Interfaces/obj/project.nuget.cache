@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TwmWlxf8aNBz4EYapZKfAhlh0KTGhRhsy/W8z9lAB1k/X80G7W7hdNGr56TjGqsdPrA5l0yN6Dp/JRRKOPm4Iw==",
+  "success": true,
+  "projectFilePath": "D:\\Individueel Fontys S2\\Interfaces\\Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\goert\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\goert\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

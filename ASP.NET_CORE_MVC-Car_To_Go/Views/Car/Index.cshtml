@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Car_To_Go.Models.CarViewModel>
+@{ ViewData["Title"] = "Index"; }
+
+<div class="h2 pt-3 text-center font-weight-bold">Our showroom, meet the prestigious cars!</div>
+<hr />
+
+@foreach (var item in Model)
+{
+
+    <div class="card-deck">
+
+        <div class="card p-3">
+            <div class="h2 text-center">@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</div>
+            <div class="row">
+                <div class="col-6 p-3">
+
+                    <p>@Html.DisplayFor(ModelItem => item.Cargospace) Liters Cargospace</p>
+                    <p>@Html.DisplayFor(ModelItem => item.Seat) Seats</p>
+
+                </div>
+
+                <div class="col-6 p-3">
+                    <div class="img-fluid h-auto">
+                        <img class="img-fluid" style="width:auto; height:auto" src="@Html.DisplayFor(ModelItem => item.ImageLink)" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <button class="btn btn-warning">@Html.ActionLink("Lees meer!", "Details", "Car", new { ID = item.ID })</button>
+            </div>
+        </div>
+    </div>
+}
+
+

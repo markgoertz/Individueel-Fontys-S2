@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Car_To_Go.Models.CarViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Admin Workstadion</h2>
+<hr />
+
+
+@Html.ActionLink("Add new car to the system", "Create", "Admin")
+
+<table class="table bg-dark text-white" style="width: 1200px; position: absolute; left: 250px; top: 200px;">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Brandname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Acceleration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enginepower)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fueltype)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transmission)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Seat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cargospace)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RentalPrice)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brandname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Modelname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Acceleration)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fueltype)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Transmission)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Weight)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Seat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cargospace)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RentalPrice)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Update", new { id = item.ID }) |
+                    @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                    @Html.ActionLink("Delete", "Delete", new { ID = item.ID }, new { onclick = "return confirm('Are sure wants to delete?');"})
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
