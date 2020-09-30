@@ -1,0 +1,44 @@
+﻿@model ASP.NET_CORE_MVC_Car_To_Go.Models.ReservationViewModel
+
+@{
+    ViewData["Title"] = "PlaceReservation";
+}
+
+<h1>PlaceReservation</h1>
+
+<h4>ReservationViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="PlaceReservation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+              <input type ="hidden" asp-for="AspNetUsers_ID" />              
+            </div>
+            <div class="form-group">
+                  <input type="hidden" asp-for="Car_ID"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" asp-controller="Reservation" asp-action="PlaceReservation" value="PlaceReservation">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a  asp-controller="Car" asp-action="Index">Back to </a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

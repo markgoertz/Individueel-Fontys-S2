@@ -4,32 +4,31 @@
 <div class="h2 pt-3 text-center font-weight-bold">Our showroom, meet the prestigious cars!</div>
 <hr />
 
-@foreach (var item in Model)
-{
-        <div class="card p-3 shadow">
-                <div class="row">
-                    <div class="col-6 p-3">
-                        <div class="h2 text-center pl-4 pb-5">@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</div>
-                        <br />
-                        <br />
-                        <br/>
-                        
-                            <h3 class="pt-5 pl-1">€@Html.DisplayFor(ModelItem => item.RentalPrice) per day!</h3>       
-                    </div>
+<div class="col-container">
+    <div class="row">
 
-                    <div class="col-6 pb-2">
-                        <div class="img-fluid h-auto">
-                            <img class="img-fluid pl-4" style="width:auto; height:auto" src="@Html.DisplayFor(ModelItem => item.ImageLink)" />
+        @foreach (var item in Model)
+        {
+            <div class="col-4 h-auto">
+                <div class="card mb-4" style="width:100%">
+                    <div class="card-img-top bd-placeholder-img" style="width:100%; height:225px">
+                        <img class="img-fluid" style="width:auto; height:auto" src="@Html.DisplayFor(ModelItem => item.ImageLink)" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(Modelitem => item.Brandname) | @Html.DisplayFor(Modelitem => item.Modelname) </h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+                            </div>
+                            <small class="text-muted">Rentalprice €@Html.DisplayFor(Modelitem => item.RentalPrice)</small>
                         </div>
                     </div>
+
                 </div>
-
-            <div class="card-footer shadow">
-                <button class="btn btn-warning">@Html.ActionLink("Lees meer!", "Details", "Car", new { ID = item.ID })</button>
             </div>
-        </div>
-        <br />
-        <br />
-}
 
+        }
+    </div>
+
+</div>
 

@@ -46,7 +46,10 @@
 
             </div>
             <div class="col">
-                <button class="btn btn-warning align-items-center">@Html.ActionLink("Bekijk de beschikbare tijden!", "#", "#")</button>
+                <form asp-controller="Reservation" asp-action="PlaceReservation" method="get">
+                    <input type="hidden" name="Id" value="@Model.ID" />
+                    <button type="submit" class="btn btn-primary">Make a Reservation!</button>
+                </form>
             </div>
          </div>
     </div>

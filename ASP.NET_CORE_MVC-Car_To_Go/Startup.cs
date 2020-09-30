@@ -35,6 +35,9 @@ namespace ASP.NET_CORE_MVC_Car_To_Go
             
             services.AddScoped<ICarDatabaseHandler, CarDatabaseHandler>();
             services.AddScoped<ICarBLL, CarBLL>();
+            services.AddScoped<IReservationHandler, ReservationHandler>();
+            services.AddScoped<IReservationBLL, ReservationBLL>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,6 +72,7 @@ namespace ASP.NET_CORE_MVC_Car_To_Go
             //Connectionstring binder
 
             CarDatabaseHandler.SetConnectionString(ConnectionString);
+            ReservationHandler.SetConnectionString(ConnectionString);
         }
     }
 }
