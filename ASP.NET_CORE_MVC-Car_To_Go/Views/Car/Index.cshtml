@@ -6,31 +6,30 @@
 
 @foreach (var item in Model)
 {
+        <div class="card p-3 shadow">
+                <div class="row">
+                    <div class="col-6 p-3">
+                        <div class="h2 text-center pl-4 pb-5">@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</div>
+                        <br />
+                        <br />
+                        <br/>
+                        
+                            <h3 class="pt-5 pl-1">€@Html.DisplayFor(ModelItem => item.RentalPrice) per day!</h3>       
+                    </div>
 
-    <div class="card-deck">
-
-        <div class="card p-3">
-            <div class="h2 text-center">@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</div>
-            <div class="row">
-                <div class="col-6 p-3">
-
-                    <p>@Html.DisplayFor(ModelItem => item.Cargospace) Liters Cargospace</p>
-                    <p>@Html.DisplayFor(ModelItem => item.Seat) Seats</p>
-
-                </div>
-
-                <div class="col-6 p-3">
-                    <div class="img-fluid h-auto">
-                        <img class="img-fluid" style="width:auto; height:auto" src="@Html.DisplayFor(ModelItem => item.ImageLink)" />
+                    <div class="col-6 pb-2">
+                        <div class="img-fluid h-auto">
+                            <img class="img-fluid pl-4" style="width:auto; height:auto" src="@Html.DisplayFor(ModelItem => item.ImageLink)" />
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="card-footer">
+            <div class="card-footer shadow">
                 <button class="btn btn-warning">@Html.ActionLink("Lees meer!", "Details", "Car", new { ID = item.ID })</button>
             </div>
         </div>
-    </div>
+        <br />
+        <br />
 }
 
 

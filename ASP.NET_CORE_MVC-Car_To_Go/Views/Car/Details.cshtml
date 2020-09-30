@@ -3,7 +3,7 @@
 @{ ViewData["Title"] = "Details"; }
 
     <div class="container">
-        <h3 class="card-title font-weight-bolder text-center pt-3">@Model.Brandname | @Model.Modelname</h3>
+        <h3 class="card-title font-weight-bolder text-center bg-primary p-5 m-5 text-white">@Model.Brandname | @Model.Modelname</h3>
         <div class="row">
             <div class="col-2">
 
@@ -18,16 +18,18 @@
             </div>
         </div>
         <div class="row">
-            <div class="col p-4 bg-primary m-1 border-white">
+            <div class="col bg-primary m-1 p-3 border-white text-white shadow">
                 <h5 class="font-weight-bold text-center text-white">Technical Information</h5>
                 <p class="card-text font-weight-bold pl-3 pt-4">Power = @Model.Enginepower HP</p>
                 <p class="card-text font-weight-bold pl-3">Transmission: @Model.Transmission</p>
                 <p class="card-text font-weight-bold pl-3">Acceleration 0-100km/h in @Model.Acceleration seconds</p>
                 <p class="card-text font-weight-bold pl-3">Fueltype = @Model.Fueltype</p>
             </div>
+        </div>
 
-            <div class="col p-4 bg-primary m-3 border-white">
-                <h5 class="font-weight-bold text-center text-white">Capacities Information</h5>
+        <div class="row">
+            <div class= "col m-1 p-3 border-white shadow">
+                <h5 class="font-weight-bold text-center">Capacities Information</h5>
                 <p class="card-text font-weight-bold pl-3 pt-4">Amount of seats: @Model.Seat</p>
                 <p class="card-text font-weight-bold pl-3">Cargospace = @Model.Cargospace L</p>
                 <p class="card-text font-weight-bold pl-3">Fueltype = @Model.Fueltype</p>
@@ -35,7 +37,7 @@
         </div>
     </div>
 
-    <div class="card-footer w-100 text-muted">
+    <div class="card-footer w-100 text-muted pt-5">
         <div class="row">
             <div class="col">
                 <h5 class="card-text font-weight-bold">Rental price per day €@Model.RentalPrice</h5>
