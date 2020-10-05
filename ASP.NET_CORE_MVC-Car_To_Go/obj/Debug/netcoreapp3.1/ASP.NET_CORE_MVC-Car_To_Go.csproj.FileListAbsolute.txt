@@ -179,3 +179,4 @@ D:\Individueel Fontys S2\ASP.NET_CORE_MVC-Car_To_Go\obj\Debug\netcoreapp3.1\ASP.
 D:\Individueel Fontys S2\ASP.NET_CORE_MVC-Car_To_Go\obj\Debug\netcoreapp3.1\ASP.NET_CORE_MVC-Car_To_Go.MvcApplicationPartsAssemblyInfo.cache
 D:\Individueel Fontys S2\ASP.NET_CORE_MVC-Car_To_Go\obj\Debug\netcoreapp3.1\Razor\Views\Reservation\PlaceReservation.cshtml.g.cs
 D:\Individueel Fontys S2\ASP.NET_CORE_MVC-Car_To_Go\obj\Debug\netcoreapp3.1\Razor\Views\Reservation\Succes.cshtml.g.cs
+D:\Individueel Fontys S2\ASP.NET_CORE_MVC-Car_To_Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\NotImplemented.cshtml.g.cs

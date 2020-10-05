@@ -28,6 +28,11 @@ namespace ASP.NET_CORE_MVC_Car_To_Go.Controllers
             return View();
         }
 
+        public IActionResult NotImplemented()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

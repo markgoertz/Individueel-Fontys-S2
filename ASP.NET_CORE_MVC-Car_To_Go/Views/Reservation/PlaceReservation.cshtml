@@ -4,12 +4,14 @@
     ViewData["Title"] = "PlaceReservation";
 }
 
-<h1>PlaceReservation</h1>
+<h1 class="text-center">PlaceReservation</h1>
 
-<h4>ReservationViewModel</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-6 bg-dark text-white p-5">
         <form asp-action="PlaceReservation">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -29,9 +31,13 @@
                 <span asp-validation-for="EndDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" asp-controller="Reservation" asp-action="PlaceReservation" value="PlaceReservation">
+                <a class="btn btn-sm btn-outline-secondary text-center" asp-controller="Car" asp-action="Index">Cancel</a>
+                <button class="btn btn-sm btn-warning btn-outline-dark input text-center" type="submit" asp-controller="Reservation" asp-action="PlaceReservation">Place Reservation!</button>
             </div>
         </form>
+    </div>
+    <div class="col-md-3">
+
     </div>
 </div>
 
